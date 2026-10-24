@@ -1,0 +1,68 @@
+anomaly_id,app_id,anomaly_type,rule_id,severity,doc_type,field,expected_value,injected_value,description
+ANOM-00001,SYN-APP-2026-0001,PINCODE_MISMATCH,R015,low,fire_safety_certificate,pincode,795040,769097,PIN code differs from application form
+ANOM-00002,SYN-APP-2026-0002,LAND_BELOW_MINIMUM,R016,high,application_form,land_area_sqm,12648,2498,Land area below configured placeholder minimum (consistent across documents)
+ANOM-00002,SYN-APP-2026-0002,LAND_BELOW_MINIMUM,R016,high,land_document,land_area_sqm,12648,2498,Land area below configured placeholder minimum (consistent across documents)
+ANOM-00002,SYN-APP-2026-0002,LAND_BELOW_MINIMUM,R016,high,building_plan_approval,land_area_sqm,12648,2498,Land area below configured placeholder minimum (consistent across documents)
+ANOM-00003,SYN-APP-2026-0002,PINCODE_MISMATCH,R015,low,fire_safety_certificate,pincode,610351,646713,PIN code differs from application form
+ANOM-00004,SYN-APP-2026-0004,FDR_MATURED,R013,high,bank_fdr_certificate,maturity_date,2030-07-23,2025-09-20,Fixed deposit matured before the application date
+ANOM-00004,SYN-APP-2026-0004,FDR_MATURED,R013,high,bank_fdr_certificate,fdr_date,2025-07-24,2022-09-21,Fixed deposit matured before the application date
+ANOM-00005,SYN-APP-2026-0006,FUTURE_DATED_DOCUMENT,R011,high,building_plan_approval,approval_date,2024-05-11,2026-05-18,Document is dated after the application date
+ANOM-00006,SYN-APP-2026-0006,PAN_FORMAT_INVALID,R017,medium,application_form,pan,SDAXP5303D,SDAXP53031,PAN does not match the AAAAA9999A format
+ANOM-00007,SYN-APP-2026-0006,PINCODE_MISMATCH,R015,low,fire_safety_certificate,pincode,734115,730278,PIN code differs from application form
+ANOM-00008,SYN-APP-2026-0007,INTAKE_MISMATCH,R008,high,affiliation_letter,total_intake,420,480,Programme intake differs from application form
+ANOM-00009,SYN-APP-2026-0008,DUPLICATE_FILE,R002,high,noc_state_govt,(file content),unique noc_state_govt,byte-identical copy of affiliation_letter,Same file submitted under two different document types
+ANOM-00010,SYN-APP-2026-0008,MISSING_DOCUMENT,R001,critical,fire_safety_certificate,(document),present,absent,A required document is absent from the application
+ANOM-00011,SYN-APP-2026-0009,INTAKE_MISMATCH,R008,high,affiliation_letter,total_intake,390,360,Programme intake differs from application form
+ANOM-00012,SYN-APP-2026-0009,LAND_AREA_MISMATCH,R006,high,building_plan_approval,land_area_sqm,16817,14320,Land area differs between application and supporting document
+ANOM-00013,SYN-APP-2026-0010,FACULTY_RATIO_EXCEEDED,R014,high,application_form,faculty_count,30,15,Students per faculty exceeds configured placeholder limit
+ANOM-00013,SYN-APP-2026-0010,FACULTY_RATIO_EXCEEDED,R014,high,faculty_list,faculty_count,30,15,Students per faculty exceeds configured placeholder limit
+ANOM-00014,SYN-APP-2026-0013,FUTURE_DATED_DOCUMENT,R011,high,building_plan_approval,approval_date,2024-01-22,2026-04-20,Document is dated after the application date
+ANOM-00015,SYN-APP-2026-0013,PAN_FORMAT_INVALID,R017,medium,application_form,pan,BNKYC6306Y,BNKYC63061,PAN does not match the AAAAA9999A format
+ANOM-00016,SYN-APP-2026-0014,SOCIETY_REG_NO_MISMATCH,R005,high,society_registration,society_reg_no,SYN/TS/SOC/2015/43089,SYN/TS/SOC/2015/43755,Society registration number differs from application form
+ANOM-00017,SYN-APP-2026-0014,BUILT_UP_AREA_MISMATCH,R007,medium,building_plan_approval,built_up_area_sqm,1540,1360,Built-up area differs between application and supporting document
+ANOM-00018,SYN-APP-2026-0014,FUTURE_DATED_DOCUMENT,R011,high,noc_state_govt,issue_date,2025-10-30,2026-06-24,Document is dated after the application date
+ANOM-00019,SYN-APP-2026-0015,SOCIETY_REG_NO_MISMATCH,R005,high,society_registration,society_reg_no,SYN/KA/SOC/2015/48719,SYN/KA/SOC/2015/48774,Society registration number differs from application form
+ANOM-00020,SYN-APP-2026-0015,FDR_MATURED,R013,high,bank_fdr_certificate,maturity_date,2028-02-19,2025-09-06,Fixed deposit matured before the application date
+ANOM-00020,SYN-APP-2026-0015,FDR_MATURED,R013,high,bank_fdr_certificate,fdr_date,2025-02-19,2022-09-07,Fixed deposit matured before the application date
+ANOM-00021,SYN-APP-2026-0015,FACULTY_COUNT_MISMATCH,R009,medium,application_form,faculty_count,31,38,Declared faculty count differs from faculty list
+ANOM-00022,SYN-APP-2026-0016,FDR_BELOW_THRESHOLD,R012,high,bank_fdr_certificate,fdr_amount,3817000,1568000,Deposit is below the configured placeholder threshold
+ANOM-00023,SYN-APP-2026-0017,INTAKE_MISMATCH,R008,high,affiliation_letter,total_intake,300,330,Programme intake differs from application form
+ANOM-00024,SYN-APP-2026-0018,FIRE_CERT_EXPIRED,R010,high,fire_safety_certificate,valid_to,2028-06-19,2025-05-08,Fire safety certificate expired before the application date
+ANOM-00024,SYN-APP-2026-0018,FIRE_CERT_EXPIRED,R010,high,fire_safety_certificate,issue_date,2025-06-20,2022-05-09,Fire safety certificate expired before the application date
+ANOM-00025,SYN-APP-2026-0019,TRUST_NAME_MISMATCH,R004,high,bank_fdr_certificate,trust_name,Chauhan Shikshan Prasarak Mandal,Chauhan Shikshan Bose Mandal,Trust/society name differs across documents
+ANOM-00026,SYN-APP-2026-0020,INTAKE_MISMATCH,R008,high,affiliation_letter,total_intake,540,570,Programme intake differs from application form
+ANOM-00027,SYN-APP-2026-0020,PAN_FORMAT_INVALID,R017,medium,application_form,pan,WDLNG8701V,WDLNG8701,PAN does not match the AAAAA9999A format
+ANOM-00028,SYN-APP-2026-0021,PINCODE_MISMATCH,R015,low,land_document,pincode,722454,718688,PIN code differs from application form
+ANOM-00029,SYN-APP-2026-0021,PAN_FORMAT_INVALID,R017,medium,application_form,pan,LBJEH8663P,lbjeh8663p,PAN does not match the AAAAA9999A format
+ANOM-00030,SYN-APP-2026-0022,TRUST_NAME_MISMATCH,R004,high,application_form,trust_name,Bhatt Education Society,Bhatt Joshi Society,Trust/society name differs across documents
+ANOM-00031,SYN-APP-2026-0023,MISSING_DOCUMENT,R001,critical,building_plan_approval,(document),present,absent,A required document is absent from the application
+ANOM-00032,SYN-APP-2026-0024,FACULTY_COUNT_MISMATCH,R009,medium,application_form,faculty_count,57,79,Declared faculty count differs from faculty list
+ANOM-00033,SYN-APP-2026-0025,TRUST_NAME_MISMATCH,R004,high,noc_state_govt,trust_name,Gupta Shikshan Sanstha,Gupta Reddy Sanstha,Trust/society name differs across documents
+ANOM-00034,SYN-APP-2026-0027,TRUST_NAME_MISMATCH,R004,high,noc_state_govt,trust_name,Ghosh Shikshan Sanstha,Ghosh Patil Sanstha,Trust/society name differs across documents
+ANOM-00035,SYN-APP-2026-0031,LAND_AREA_MISMATCH,R006,high,land_document,land_area_sqm,15093,12810,Land area differs between application and supporting document
+ANOM-00036,SYN-APP-2026-0031,FDR_MATURED,R013,high,bank_fdr_certificate,maturity_date,2029-11-13,2025-10-26,Fixed deposit matured before the application date
+ANOM-00036,SYN-APP-2026-0031,FDR_MATURED,R013,high,bank_fdr_certificate,fdr_date,2024-11-14,2022-10-27,Fixed deposit matured before the application date
+ANOM-00037,SYN-APP-2026-0032,BUILT_UP_AREA_MISMATCH,R007,medium,infrastructure_report,built_up_area_sqm,2600,2030,Built-up area differs between application and supporting document
+ANOM-00038,SYN-APP-2026-0032,INSTITUTION_NAME_MISMATCH,R003,medium,noc_state_govt,institution_name,Aryabhata Institute of Polytechnic Education,Aryabhata Institute of Polytechnic,Institution name differs from the application form
+ANOM-00039,SYN-APP-2026-0032,SOCIETY_REG_NO_MISMATCH,R005,high,society_registration,society_reg_no,SYN/MP/SOC/2017/44906,SYN/MP/SOC/2017/45665,Society registration number differs from application form
+ANOM-00040,SYN-APP-2026-0033,FUTURE_DATED_DOCUMENT,R011,high,building_plan_approval,approval_date,2024-11-04,2026-01-04,Document is dated after the application date
+ANOM-00041,SYN-APP-2026-0034,SOCIETY_REG_NO_MISMATCH,R005,high,society_registration,society_reg_no,SYN/KL/SOC/2011/92389,SYN/KL/SOC/2011/92692,Society registration number differs from application form
+ANOM-00042,SYN-APP-2026-0034,FACULTY_COUNT_MISMATCH,R009,medium,application_form,faculty_count,78,97,Declared faculty count differs from faculty list
+ANOM-00043,SYN-APP-2026-0035,LAND_BELOW_MINIMUM,R016,high,application_form,land_area_sqm,18214,7794,Land area below configured placeholder minimum (consistent across documents)
+ANOM-00043,SYN-APP-2026-0035,LAND_BELOW_MINIMUM,R016,high,land_document,land_area_sqm,18214,7794,Land area below configured placeholder minimum (consistent across documents)
+ANOM-00043,SYN-APP-2026-0035,LAND_BELOW_MINIMUM,R016,high,building_plan_approval,land_area_sqm,18214,7794,Land area below configured placeholder minimum (consistent across documents)
+ANOM-00044,SYN-APP-2026-0037,INTAKE_MISMATCH,R008,high,noc_state_govt,total_intake,360,420,Programme intake differs from application form
+ANOM-00045,SYN-APP-2026-0038,LAND_AREA_MISMATCH,R006,high,land_document,land_area_sqm,18834,15340,Land area differs between application and supporting document
+ANOM-00046,SYN-APP-2026-0039,FDR_BELOW_THRESHOLD,R012,high,bank_fdr_certificate,fdr_amount,6538000,3444000,Deposit is below the configured placeholder threshold
+ANOM-00047,SYN-APP-2026-0041,BUILT_UP_AREA_MISMATCH,R007,medium,infrastructure_report,built_up_area_sqm,7570,6690,Built-up area differs between application and supporting document
+ANOM-00048,SYN-APP-2026-0045,INSTITUTION_NAME_MISMATCH,R003,medium,noc_state_govt,institution_name,Ananta College of Engineering,Anatna College of Engineering,Institution name differs from the application form
+ANOM-00049,SYN-APP-2026-0047,PAN_FORMAT_INVALID,R017,medium,application_form,pan,NFUUW1754Y,nfuuw1754y,PAN does not match the AAAAA9999A format
+ANOM-00050,SYN-APP-2026-0048,BUILT_UP_AREA_MISMATCH,R007,medium,infrastructure_report,built_up_area_sqm,4180,3680,Built-up area differs between application and supporting document
+ANOM-00051,SYN-APP-2026-0049,FDR_BELOW_THRESHOLD,R012,high,bank_fdr_certificate,fdr_amount,5908000,2496000,Deposit is below the configured placeholder threshold
+ANOM-00052,SYN-APP-2026-0050,FDR_BELOW_THRESHOLD,R012,high,bank_fdr_certificate,fdr_amount,6257000,3341000,Deposit is below the configured placeholder threshold
+ANOM-00053,SYN-APP-2026-0051,DUPLICATE_FILE,R002,high,society_registration,(file content),unique society_registration,byte-identical copy of audited_financials,Same file submitted under two different document types
+ANOM-00054,SYN-APP-2026-0056,TRUST_NAME_MISMATCH,R004,high,bank_fdr_certificate,trust_name,Shah Shikshan Sanstha,Shah Joshi Sanstha,Trust/society name differs across documents
+ANOM-00055,SYN-APP-2026-0059,FUTURE_DATED_DOCUMENT,R011,high,building_plan_approval,approval_date,2024-10-09,2026-07-26,Document is dated after the application date
+ANOM-00056,SYN-APP-2026-0060,FACULTY_RATIO_EXCEEDED,R014,high,application_form,faculty_count,7,3,Students per faculty exceeds configured placeholder limit
+ANOM-00056,SYN-APP-2026-0060,FACULTY_RATIO_EXCEEDED,R014,high,faculty_list,faculty_count,7,3,Students per faculty exceeds configured placeholder limit
+ANOM-00057,SYN-APP-2026-0060,INTAKE_MISMATCH,R008,high,noc_state_govt,total_intake,60,120,Programme intake differs from application form

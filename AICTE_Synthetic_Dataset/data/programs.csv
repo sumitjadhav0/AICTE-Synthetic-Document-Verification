@@ -1,0 +1,206 @@
+app_id,programme,level,duration_years,intake
+SYN-APP-2026-0001,Diploma in Electrical Engineering,Diploma,3,90
+SYN-APP-2026-0001,Diploma in Mechanical Engineering,Diploma,3,60
+SYN-APP-2026-0001,Diploma in Civil Engineering,Diploma,3,90
+SYN-APP-2026-0001,Diploma in Information Technology,Diploma,3,60
+SYN-APP-2026-0002,Diploma in Information Technology,Diploma,3,30
+SYN-APP-2026-0002,Diploma in Civil Engineering,Diploma,3,60
+SYN-APP-2026-0002,Diploma in Mechanical Engineering,Diploma,3,90
+SYN-APP-2026-0003,B.E. in Civil Engineering,UG,4,90
+SYN-APP-2026-0003,B.Tech in Information Technology,UG,4,180
+SYN-APP-2026-0003,B.E. in Mechanical Engineering,UG,4,120
+SYN-APP-2026-0003,B.E. in Electronics & Telecommunication Engineering,UG,4,180
+SYN-APP-2026-0003,B.E. in Electrical Engineering,UG,4,90
+SYN-APP-2026-0004,Diploma in Computer Engineering,Diploma,3,30
+SYN-APP-2026-0004,Diploma in Information Technology,Diploma,3,90
+SYN-APP-2026-0004,Diploma in Mechanical Engineering,Diploma,3,60
+SYN-APP-2026-0005,B.E. in Mechanical Engineering,UG,4,90
+SYN-APP-2026-0005,B.E. in Civil Engineering,UG,4,120
+SYN-APP-2026-0005,B.Tech in Information Technology,UG,4,60
+SYN-APP-2026-0005,B.E. in Electrical Engineering,UG,4,180
+SYN-APP-2026-0005,B.Tech in Computer Science & Engineering,UG,4,30
+SYN-APP-2026-0006,PGDM,PG,2,120
+SYN-APP-2026-0007,B.E. in Mechanical Engineering,UG,4,180
+SYN-APP-2026-0007,B.Tech in Artificial Intelligence & Data Science,UG,4,180
+SYN-APP-2026-0007,B.E. in Electrical Engineering,UG,4,60
+SYN-APP-2026-0008,B.E. in Civil Engineering,UG,4,180
+SYN-APP-2026-0008,B.Tech in Computer Science & Engineering,UG,4,180
+SYN-APP-2026-0008,B.E. in Electronics & Telecommunication Engineering,UG,4,30
+SYN-APP-2026-0008,B.Tech in Artificial Intelligence & Data Science,UG,4,180
+SYN-APP-2026-0008,B.E. in Electrical Engineering,UG,4,120
+SYN-APP-2026-0009,B.Tech in Artificial Intelligence & Data Science,UG,4,60
+SYN-APP-2026-0009,B.E. in Mechanical Engineering,UG,4,30
+SYN-APP-2026-0009,B.E. in Civil Engineering,UG,4,180
+SYN-APP-2026-0009,B.Tech in Computer Science & Engineering,UG,4,30
+SYN-APP-2026-0009,B.E. in Electronics & Telecommunication Engineering,UG,4,90
+SYN-APP-2026-0010,Diploma in Civil Engineering,Diploma,3,90
+SYN-APP-2026-0010,Diploma in Electrical Engineering,Diploma,3,90
+SYN-APP-2026-0010,Diploma in Mechanical Engineering,Diploma,3,30
+SYN-APP-2026-0011,Diploma in Civil Engineering,Diploma,3,60
+SYN-APP-2026-0011,Diploma in Information Technology,Diploma,3,90
+SYN-APP-2026-0011,Diploma in Computer Engineering,Diploma,3,30
+SYN-APP-2026-0011,Diploma in Mechanical Engineering,Diploma,3,90
+SYN-APP-2026-0012,B.E. in Electrical Engineering,UG,4,90
+SYN-APP-2026-0012,B.E. in Electronics & Telecommunication Engineering,UG,4,30
+SYN-APP-2026-0012,B.Tech in Information Technology,UG,4,30
+SYN-APP-2026-0012,B.E. in Civil Engineering,UG,4,30
+SYN-APP-2026-0013,MCA,PG,2,120
+SYN-APP-2026-0014,MCA,PG,2,180
+SYN-APP-2026-0015,Diploma in Mechanical Engineering,Diploma,3,90
+SYN-APP-2026-0015,Diploma in Civil Engineering,Diploma,3,30
+SYN-APP-2026-0015,Diploma in Computer Engineering,Diploma,3,30
+SYN-APP-2026-0015,Diploma in Information Technology,Diploma,3,60
+SYN-APP-2026-0016,Diploma in Information Technology,Diploma,3,90
+SYN-APP-2026-0016,Diploma in Mechanical Engineering,Diploma,3,60
+SYN-APP-2026-0016,Diploma in Electrical Engineering,Diploma,3,60
+SYN-APP-2026-0017,B.Tech in Artificial Intelligence & Data Science,UG,4,180
+SYN-APP-2026-0017,B.E. in Electronics & Telecommunication Engineering,UG,4,90
+SYN-APP-2026-0017,B.E. in Mechanical Engineering,UG,4,30
+SYN-APP-2026-0018,B.E. in Mechanical Engineering,UG,4,60
+SYN-APP-2026-0018,B.Tech in Information Technology,UG,4,60
+SYN-APP-2026-0018,B.Tech in Artificial Intelligence & Data Science,UG,4,180
+SYN-APP-2026-0019,PGDM,PG,2,180
+SYN-APP-2026-0020,B.Tech in Artificial Intelligence & Data Science,UG,4,180
+SYN-APP-2026-0020,B.E. in Electronics & Telecommunication Engineering,UG,4,180
+SYN-APP-2026-0020,B.Tech in Information Technology,UG,4,180
+SYN-APP-2026-0021,Diploma in Civil Engineering,Diploma,3,60
+SYN-APP-2026-0021,Diploma in Electrical Engineering,Diploma,3,90
+SYN-APP-2026-0021,Diploma in Computer Engineering,Diploma,3,30
+SYN-APP-2026-0021,Diploma in Mechanical Engineering,Diploma,3,30
+SYN-APP-2026-0022,Diploma in Electrical Engineering,Diploma,3,30
+SYN-APP-2026-0022,Diploma in Civil Engineering,Diploma,3,30
+SYN-APP-2026-0022,Diploma in Mechanical Engineering,Diploma,3,30
+SYN-APP-2026-0023,B.E. in Mechanical Engineering,UG,4,120
+SYN-APP-2026-0023,B.E. in Civil Engineering,UG,4,180
+SYN-APP-2026-0023,B.Tech in Information Technology,UG,4,90
+SYN-APP-2026-0023,B.E. in Electrical Engineering,UG,4,90
+SYN-APP-2026-0023,B.Tech in Computer Science & Engineering,UG,4,30
+SYN-APP-2026-0024,B.E. in Civil Engineering,UG,4,180
+SYN-APP-2026-0024,B.Tech in Information Technology,UG,4,60
+SYN-APP-2026-0024,B.Tech in Artificial Intelligence & Data Science,UG,4,30
+SYN-APP-2026-0025,B.Tech in Artificial Intelligence & Data Science,UG,4,180
+SYN-APP-2026-0025,B.E. in Mechanical Engineering,UG,4,120
+SYN-APP-2026-0025,B.E. in Electronics & Telecommunication Engineering,UG,4,30
+SYN-APP-2026-0025,B.E. in Civil Engineering,UG,4,180
+SYN-APP-2026-0026,B.Tech in Information Technology,UG,4,60
+SYN-APP-2026-0026,B.Tech in Computer Science & Engineering,UG,4,90
+SYN-APP-2026-0026,B.E. in Electronics & Telecommunication Engineering,UG,4,90
+SYN-APP-2026-0026,B.E. in Electrical Engineering,UG,4,120
+SYN-APP-2026-0026,B.E. in Civil Engineering,UG,4,60
+SYN-APP-2026-0027,PGDM,PG,2,180
+SYN-APP-2026-0027,MBA,PG,2,60
+SYN-APP-2026-0028,B.E. in Civil Engineering,UG,4,120
+SYN-APP-2026-0028,B.E. in Mechanical Engineering,UG,4,120
+SYN-APP-2026-0028,B.E. in Electronics & Telecommunication Engineering,UG,4,30
+SYN-APP-2026-0029,MCA,PG,2,60
+SYN-APP-2026-0029,PGDM,PG,2,120
+SYN-APP-2026-0030,B.E. in Electronics & Telecommunication Engineering,UG,4,90
+SYN-APP-2026-0030,B.E. in Civil Engineering,UG,4,90
+SYN-APP-2026-0030,B.E. in Mechanical Engineering,UG,4,60
+SYN-APP-2026-0030,B.E. in Electrical Engineering,UG,4,180
+SYN-APP-2026-0031,B.E. in Electronics & Telecommunication Engineering,UG,4,120
+SYN-APP-2026-0031,B.Tech in Computer Science & Engineering,UG,4,60
+SYN-APP-2026-0031,B.E. in Mechanical Engineering,UG,4,60
+SYN-APP-2026-0032,Diploma in Information Technology,Diploma,3,30
+SYN-APP-2026-0032,Diploma in Computer Engineering,Diploma,3,30
+SYN-APP-2026-0032,Diploma in Civil Engineering,Diploma,3,90
+SYN-APP-2026-0033,B.E. in Electrical Engineering,UG,4,180
+SYN-APP-2026-0033,B.E. in Electronics & Telecommunication Engineering,UG,4,90
+SYN-APP-2026-0033,B.E. in Mechanical Engineering,UG,4,60
+SYN-APP-2026-0034,B.Tech in Artificial Intelligence & Data Science,UG,4,90
+SYN-APP-2026-0034,B.Tech in Information Technology,UG,4,90
+SYN-APP-2026-0034,B.E. in Electronics & Telecommunication Engineering,UG,4,90
+SYN-APP-2026-0034,B.Tech in Computer Science & Engineering,UG,4,60
+SYN-APP-2026-0035,B.Tech in Artificial Intelligence & Data Science,UG,4,60
+SYN-APP-2026-0035,B.E. in Electronics & Telecommunication Engineering,UG,4,30
+SYN-APP-2026-0035,B.Tech in Information Technology,UG,4,90
+SYN-APP-2026-0035,B.E. in Mechanical Engineering,UG,4,30
+SYN-APP-2026-0036,B.E. in Civil Engineering,UG,4,60
+SYN-APP-2026-0036,B.E. in Electrical Engineering,UG,4,120
+SYN-APP-2026-0036,B.E. in Electronics & Telecommunication Engineering,UG,4,60
+SYN-APP-2026-0037,B.Tech in Information Technology,UG,4,120
+SYN-APP-2026-0037,B.E. in Civil Engineering,UG,4,60
+SYN-APP-2026-0037,B.E. in Electrical Engineering,UG,4,30
+SYN-APP-2026-0037,B.E. in Mechanical Engineering,UG,4,120
+SYN-APP-2026-0037,B.E. in Electronics & Telecommunication Engineering,UG,4,30
+SYN-APP-2026-0038,B.E. in Electrical Engineering,UG,4,60
+SYN-APP-2026-0038,B.Tech in Information Technology,UG,4,30
+SYN-APP-2026-0038,B.Tech in Computer Science & Engineering,UG,4,180
+SYN-APP-2026-0038,B.E. in Mechanical Engineering,UG,4,60
+SYN-APP-2026-0038,B.Tech in Artificial Intelligence & Data Science,UG,4,60
+SYN-APP-2026-0039,B.Tech in Artificial Intelligence & Data Science,UG,4,180
+SYN-APP-2026-0039,B.Tech in Computer Science & Engineering,UG,4,180
+SYN-APP-2026-0039,B.E. in Civil Engineering,UG,4,30
+SYN-APP-2026-0039,B.Tech in Information Technology,UG,4,90
+SYN-APP-2026-0039,B.E. in Electrical Engineering,UG,4,90
+SYN-APP-2026-0040,B.E. in Civil Engineering,UG,4,120
+SYN-APP-2026-0040,B.E. in Mechanical Engineering,UG,4,60
+SYN-APP-2026-0040,B.E. in Electronics & Telecommunication Engineering,UG,4,30
+SYN-APP-2026-0040,B.Tech in Computer Science & Engineering,UG,4,90
+SYN-APP-2026-0040,B.E. in Electrical Engineering,UG,4,120
+SYN-APP-2026-0041,B.E. in Electrical Engineering,UG,4,120
+SYN-APP-2026-0041,B.Tech in Computer Science & Engineering,UG,4,60
+SYN-APP-2026-0041,B.E. in Electronics & Telecommunication Engineering,UG,4,120
+SYN-APP-2026-0041,B.Tech in Information Technology,UG,4,90
+SYN-APP-2026-0042,B.Tech in Computer Science & Engineering,UG,4,180
+SYN-APP-2026-0042,B.E. in Electrical Engineering,UG,4,180
+SYN-APP-2026-0042,B.Tech in Artificial Intelligence & Data Science,UG,4,180
+SYN-APP-2026-0042,B.E. in Civil Engineering,UG,4,120
+SYN-APP-2026-0042,B.Tech in Information Technology,UG,4,120
+SYN-APP-2026-0043,B.E. in Electrical Engineering,UG,4,120
+SYN-APP-2026-0043,B.Tech in Artificial Intelligence & Data Science,UG,4,60
+SYN-APP-2026-0043,B.Tech in Information Technology,UG,4,60
+SYN-APP-2026-0043,B.E. in Mechanical Engineering,UG,4,120
+SYN-APP-2026-0044,B.E. in Mechanical Engineering,UG,4,120
+SYN-APP-2026-0044,B.Tech in Artificial Intelligence & Data Science,UG,4,180
+SYN-APP-2026-0044,B.E. in Electrical Engineering,UG,4,90
+SYN-APP-2026-0044,B.E. in Civil Engineering,UG,4,90
+SYN-APP-2026-0045,B.Tech in Information Technology,UG,4,90
+SYN-APP-2026-0045,B.E. in Electronics & Telecommunication Engineering,UG,4,90
+SYN-APP-2026-0045,B.E. in Electrical Engineering,UG,4,60
+SYN-APP-2026-0045,B.Tech in Artificial Intelligence & Data Science,UG,4,180
+SYN-APP-2026-0046,B.Tech in Information Technology,UG,4,90
+SYN-APP-2026-0046,B.E. in Civil Engineering,UG,4,30
+SYN-APP-2026-0046,B.Tech in Artificial Intelligence & Data Science,UG,4,120
+SYN-APP-2026-0046,B.E. in Mechanical Engineering,UG,4,180
+SYN-APP-2026-0047,Diploma in Mechanical Engineering,Diploma,3,30
+SYN-APP-2026-0047,Diploma in Computer Engineering,Diploma,3,60
+SYN-APP-2026-0047,Diploma in Electrical Engineering,Diploma,3,30
+SYN-APP-2026-0047,Diploma in Information Technology,Diploma,3,60
+SYN-APP-2026-0048,Diploma in Computer Engineering,Diploma,3,90
+SYN-APP-2026-0048,Diploma in Civil Engineering,Diploma,3,30
+SYN-APP-2026-0048,Diploma in Mechanical Engineering,Diploma,3,90
+SYN-APP-2026-0048,Diploma in Information Technology,Diploma,3,60
+SYN-APP-2026-0049,B.Tech in Information Technology,UG,4,30
+SYN-APP-2026-0049,B.Tech in Computer Science & Engineering,UG,4,90
+SYN-APP-2026-0049,B.E. in Electrical Engineering,UG,4,30
+SYN-APP-2026-0050,B.Tech in Information Technology,UG,4,60
+SYN-APP-2026-0050,B.E. in Mechanical Engineering,UG,4,90
+SYN-APP-2026-0050,B.E. in Electrical Engineering,UG,4,120
+SYN-APP-2026-0051,Diploma in Electrical Engineering,Diploma,3,30
+SYN-APP-2026-0051,Diploma in Computer Engineering,Diploma,3,30
+SYN-APP-2026-0051,Diploma in Information Technology,Diploma,3,90
+SYN-APP-2026-0051,Diploma in Civil Engineering,Diploma,3,90
+SYN-APP-2026-0052,B.E. in Electrical Engineering,UG,4,120
+SYN-APP-2026-0052,B.Tech in Information Technology,UG,4,120
+SYN-APP-2026-0052,B.E. in Mechanical Engineering,UG,4,60
+SYN-APP-2026-0053,MCA,PG,2,120
+SYN-APP-2026-0054,MBA,PG,2,60
+SYN-APP-2026-0054,MCA,PG,2,180
+SYN-APP-2026-0055,B.Tech in Computer Science & Engineering,UG,4,60
+SYN-APP-2026-0055,B.E. in Mechanical Engineering,UG,4,120
+SYN-APP-2026-0055,B.Tech in Information Technology,UG,4,60
+SYN-APP-2026-0056,Diploma in Computer Engineering,Diploma,3,30
+SYN-APP-2026-0056,Diploma in Information Technology,Diploma,3,60
+SYN-APP-2026-0056,Diploma in Civil Engineering,Diploma,3,30
+SYN-APP-2026-0056,Diploma in Electrical Engineering,Diploma,3,60
+SYN-APP-2026-0057,B.E. in Electrical Engineering,UG,4,120
+SYN-APP-2026-0057,B.Tech in Computer Science & Engineering,UG,4,60
+SYN-APP-2026-0057,B.E. in Mechanical Engineering,UG,4,60
+SYN-APP-2026-0057,B.E. in Electronics & Telecommunication Engineering,UG,4,60
+SYN-APP-2026-0058,B.E. in Electrical Engineering,UG,4,60
+SYN-APP-2026-0058,B.Tech in Artificial Intelligence & Data Science,UG,4,120
+SYN-APP-2026-0058,B.E. in Civil Engineering,UG,4,90
+SYN-APP-2026-0058,B.E. in Mechanical Engineering,UG,4,90
+SYN-APP-2026-0059,PGDM,PG,2,120
+SYN-APP-2026-0060,MBA,PG,2,60

@@ -1,0 +1,339 @@
+{
+  "SYN-APP-2026-0001": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R015"
+    ]
+  },
+  "SYN-APP-2026-0002": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R015",
+      "R016"
+    ]
+  },
+  "SYN-APP-2026-0003": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0004": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R013"
+    ]
+  },
+  "SYN-APP-2026-0005": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0006": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R011",
+      "R015",
+      "R017"
+    ]
+  },
+  "SYN-APP-2026-0007": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R008"
+    ]
+  },
+  "SYN-APP-2026-0008": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R001",
+      "R002"
+    ]
+  },
+  "SYN-APP-2026-0009": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R006",
+      "R008"
+    ]
+  },
+  "SYN-APP-2026-0010": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R014"
+    ]
+  },
+  "SYN-APP-2026-0011": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0012": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0013": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R011",
+      "R017"
+    ]
+  },
+  "SYN-APP-2026-0014": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R005",
+      "R007",
+      "R011"
+    ]
+  },
+  "SYN-APP-2026-0015": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R005",
+      "R009",
+      "R013"
+    ]
+  },
+  "SYN-APP-2026-0016": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R012"
+    ]
+  },
+  "SYN-APP-2026-0017": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R008"
+    ]
+  },
+  "SYN-APP-2026-0018": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R010"
+    ]
+  },
+  "SYN-APP-2026-0019": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R004"
+    ]
+  },
+  "SYN-APP-2026-0020": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R008",
+      "R017"
+    ]
+  },
+  "SYN-APP-2026-0021": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R015",
+      "R017"
+    ]
+  },
+  "SYN-APP-2026-0022": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R004"
+    ]
+  },
+  "SYN-APP-2026-0023": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R001"
+    ]
+  },
+  "SYN-APP-2026-0024": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R009"
+    ]
+  },
+  "SYN-APP-2026-0025": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R004"
+    ]
+  },
+  "SYN-APP-2026-0026": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0027": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R004"
+    ]
+  },
+  "SYN-APP-2026-0028": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0029": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0030": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0031": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R006",
+      "R013"
+    ]
+  },
+  "SYN-APP-2026-0032": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R003",
+      "R005",
+      "R007"
+    ]
+  },
+  "SYN-APP-2026-0033": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R011"
+    ]
+  },
+  "SYN-APP-2026-0034": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R005",
+      "R009"
+    ]
+  },
+  "SYN-APP-2026-0035": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R016"
+    ]
+  },
+  "SYN-APP-2026-0036": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0037": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R008"
+    ]
+  },
+  "SYN-APP-2026-0038": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R006"
+    ]
+  },
+  "SYN-APP-2026-0039": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R012"
+    ]
+  },
+  "SYN-APP-2026-0040": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0041": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R007"
+    ]
+  },
+  "SYN-APP-2026-0042": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0043": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0044": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0045": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R003"
+    ]
+  },
+  "SYN-APP-2026-0046": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0047": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R017"
+    ]
+  },
+  "SYN-APP-2026-0048": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R007"
+    ]
+  },
+  "SYN-APP-2026-0049": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R012"
+    ]
+  },
+  "SYN-APP-2026-0050": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R012"
+    ]
+  },
+  "SYN-APP-2026-0051": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R002"
+    ]
+  },
+  "SYN-APP-2026-0052": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0053": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0054": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0055": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0056": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R004"
+    ]
+  },
+  "SYN-APP-2026-0057": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0058": {
+    "status": "CLEAN",
+    "rules_violated": []
+  },
+  "SYN-APP-2026-0059": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R011"
+    ]
+  },
+  "SYN-APP-2026-0060": {
+    "status": "NEEDS_REVIEW",
+    "rules_violated": [
+      "R008",
+      "R014"
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "disclaimer": "Thresholds are PLACEHOLDERS for testing. They are not taken from the AICTE Approval Process Handbook. Map each rule to a Handbook clause and set verified=true only after human verification.",
+  "thresholds": {
+    "min_land_area_sqm": {
+      "Engineering": 10000,
+      "Polytechnic": 6000,
+      "Management": 4000
+    },
+    "min_fdr_inr": {
+      "Engineering": 5000000,
+      "Polytechnic": 2500000,
+      "Management": 3000000
+    },
+    "max_students_per_faculty": {
+      "Engineering": 20,
+      "Polytechnic": 25,
+      "Management": 20
+    }
+  },
+  "rules": [
+    {
+      "rule_id": "R001",
+      "name": "Required documents present",
+      "description": "All 11 required document types must be present",
+      "category": "completeness",
+      "params": null,
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R002",
+      "name": "No duplicate files",
+      "description": "No two documents of different types may be byte-identical",
+      "category": "duplicate",
+      "params": null,
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R003",
+      "name": "Institution name consistent",
+      "description": "institution_name equals application form value in every document",
+      "category": "cross_document",
+      "params": {
+        "field": "institution_name"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R004",
+      "name": "Trust/society name consistent",
+      "description": "trust_name equal across application, registration, land, NOC, FDR, financials",
+      "category": "cross_document",
+      "params": {
+        "field": "trust_name"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R005",
+      "name": "Society registration number consistent",
+      "description": "society_reg_no equal between application form and registration certificate",
+      "category": "cross_document",
+      "params": {
+        "field": "society_reg_no"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R006",
+      "name": "Land area consistent",
+      "description": "land_area_sqm equal across application, land document, building plan",
+      "category": "cross_document",
+      "params": {
+        "field": "land_area_sqm"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R007",
+      "name": "Built-up area consistent",
+      "description": "built_up_area_sqm equal across application, building plan, infrastructure report",
+      "category": "cross_document",
+      "params": {
+        "field": "built_up_area_sqm"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R008",
+      "name": "Intake consistent",
+      "description": "total_intake equal across application, NOC and affiliation letter",
+      "category": "cross_document",
+      "params": {
+        "field": "total_intake"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R009",
+      "name": "Faculty count consistent",
+      "description": "faculty_count declared equals rows in faculty list",
+      "category": "cross_document",
+      "params": {
+        "field": "faculty_count"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R010",
+      "name": "Fire certificate valid",
+      "description": "fire certificate valid_to must be on/after application_date",
+      "category": "date",
+      "params": {
+        "field": "valid_to"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R011",
+      "name": "No future-dated documents",
+      "description": "Document dates must not be after application_date",
+      "category": "date",
+      "params": null,
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R012",
+      "name": "Deposit meets threshold",
+      "description": "fdr_amount >= min_fdr_inr[institution_type]",
+      "category": "threshold",
+      "params": {
+        "threshold": "min_fdr_inr"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R013",
+      "name": "Deposit not matured",
+      "description": "FDR maturity_date must be after application_date",
+      "category": "date",
+      "params": {
+        "field": "maturity_date"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R014",
+      "name": "Students-per-faculty ratio",
+      "description": "students / faculty_count <= max_students_per_faculty[type]",
+      "category": "threshold",
+      "params": {
+        "threshold": "max_students_per_faculty"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R015",
+      "name": "PIN code consistent",
+      "description": "pincode equal across application, land, plan, fire certificate",
+      "category": "cross_document",
+      "params": {
+        "field": "pincode"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R016",
+      "name": "Minimum land area",
+      "description": "land_area_sqm >= min_land_area_sqm[type]",
+      "category": "threshold",
+      "params": {
+        "threshold": "min_land_area_sqm"
+      },
+      "handbook_reference": null,
+      "verified": false
+    },
+    {
+      "rule_id": "R017",
+      "name": "PAN format",
+      "description": "pan matches ^[A-Z]{5}[0-9]{4}[A-Z]$",
+      "category": "format",
+      "params": {
+        "regex": "^[A-Z]{5}[0-9]{4}[A-Z]$"
+      },
+      "handbook_reference": null,
+      "verified": false
+    }
+  ]
+}
