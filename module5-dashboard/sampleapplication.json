@@ -1,0 +1,16 @@
+
+{
+  "application_id": "DEMO-AICTE-001",
+  "institution_name": "Demo Engineering College",
+  "application_type": "EoA",
+  "academic_year": "2026-27",
+  "documents": [
+    {
+      "file": "AFF00001.jpg",
+      "review_category": "cloned_certificate",
+      "needs_manual_review": 1,
+      "status": "Pending Review"
+    }
+  ],
+  "is_demo": true
+}
